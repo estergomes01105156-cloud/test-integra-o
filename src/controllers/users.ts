@@ -65,7 +65,6 @@ export default {
       const { id } = request.params;
       const { name, email } = request.body;
 
-      // Valida o e-mail apenas se ele foi enviado
       if (
         email &&
         !email.match(/^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/)
