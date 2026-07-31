@@ -46,7 +46,7 @@ test("Deve listar vários usuários", async () => {
                 email: faker.internet.email(),
             },
             {
-                name: faker.person.firstName(),
+                name: faker.person.firstName(), 
                 email: faker.internet.email(),
             },
         ],
